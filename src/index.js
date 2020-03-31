@@ -12,7 +12,7 @@ import Home from "./components/home";
 import {Provider} from 'react-redux'
 import store from "./store/index";
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-
+import '../src/mock/index';
 ReactDOM.render(
     <Provider store={store}>
         {/*<Router>*/}
